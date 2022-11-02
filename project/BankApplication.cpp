@@ -226,6 +226,7 @@ void BankApplication::createClientAccount() {
 
 void BankApplication::listClients() {
     // Print all clients that are stored in the application
+    print("All clients' information");
     for(auto& temp : containerClients){
         printClientInformation(temp.second);
     }
@@ -244,7 +245,7 @@ void BankApplication::withdraw() {
     std::cout << "Enter the money to withdraw: ";
     std::cin >> money;
     while (!client.getBankAccount()->withdraw(money)) {
-        print("Sorry this is more than you can withdraw (at most " + std::to_string(SavingBankAccount::minimumBalance) + " L.E");
+        print("Sorry this is more than you can withdraw");
         std::cout << "Enter the right money to withdraw: ";
         std::cin >> money;
     }
