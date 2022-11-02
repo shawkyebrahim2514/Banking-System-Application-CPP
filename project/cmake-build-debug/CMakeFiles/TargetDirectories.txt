@@ -1,0 +1,3 @@
+D:/FCAI CU/Materials/Second year/First semester/OOP/Personal projects/Banking system/cmake-build-debug/CMakeFiles/Project.dir
+D:/FCAI CU/Materials/Second year/First semester/OOP/Personal projects/Banking system/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/FCAI CU/Materials/Second year/First semester/OOP/Personal projects/Banking system/cmake-build-debug/CMakeFiles/rebuild_cache.dir
