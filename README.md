@@ -2,12 +2,12 @@
  Banking system application with CPP
  
 ## Overview
-* Allow to create back account for a specific client
-* There are two types of this banking accounts (Basic and Svaing)
-   * Each one of these two types has different implementation of the withdraw and deposit function
+* Allow creating a bank account for a specific client
+* There are two types of this banking accounts (Basic and Saving)
+   *  Each one of these two types has a different implementation of the withdraw and deposit function
 * There is a Client class that contains all client information
-* The main class that runs the application and store all clients with their ID to access them
-* All clients information will be stored in the database file (dataBase.txt), and will be uploaded each time the application runs
+* The main class that runs the application and stores all clients with their ID to access them
+* All client information will be stored in the database file (dataBase.txt) and will be uploaded each time the application runs
 
 ### Banking Account types
 * Basic bank account
